@@ -33,4 +33,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: ./ http://bsal20_c1.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: ./ bsal20_c1.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
